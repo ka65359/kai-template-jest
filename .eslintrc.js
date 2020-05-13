@@ -10,9 +10,10 @@ module.exports = exports = {
   "env": {
     "browser": true,
     "node": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
-  "plugins": ["react"],
+  "plugins": ["react", "jest"],
   "settings": {
     "react": {
       "version": "detect"
