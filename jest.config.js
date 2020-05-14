@@ -12,6 +12,6 @@ module.exports = {
     "\\.(css|scss)$": require.resolve("./test/style-mock"),
     "\\.(gif|jpg|png|svg)$": require.resolve("./test/file-mock.js")
   },
-  setupTestFrameworkScriptFile: require.resolve("./test/setup-test-framework"),
+  setupFilesAfterEnv: ["./test/setup-test-framework"],
   verbose: true
 };
