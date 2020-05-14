@@ -1,7 +1,8 @@
-module.exports = {
+module.exports = exports = {
   testURL: "http://localhost/",
   collectCoverageFrom: [
     "**/src/**/*.js",
+    "!**/src/setupTests.js",
     "!**/__tests__/**",
     "!**/node_modules/**"
   ],
